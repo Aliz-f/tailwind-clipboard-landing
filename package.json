@@ -1,0 +1,23 @@
+{
+  "name": "clipboard-landing-page",
+  "version": "1.0.0",
+  "description": "A responsive landing page for a clipboard management app built with Tailwind CSS v4.",
+  "main": "index.html",
+  "scripts": {
+    "build": "tailwindcss -i ./input.css -o ./css/style.css",
+    "watch": "tailwindcss -i ./input.css -o ./css/style.css --watch"
+  },
+  "keywords": [
+    "tailwind",
+    "tailwindcss",
+    "frontend",
+    "responsive",
+    "landing-page"
+  ],
+  "author": "Alireza Fadaei",
+  "license": "MIT",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.0.12",
+    "tailwindcss": "^4.0.12"
+  }
+}
